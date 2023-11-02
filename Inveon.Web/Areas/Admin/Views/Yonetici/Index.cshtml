@@ -1,0 +1,47 @@
+@model ProductDto
+
+@{
+    ViewData["Title"] = "Admin Page";
+}
+
+<div class="content">
+    <div class="float-right d-inline">
+        <h2>Add New Product</h2>
+        <form id="product">
+            @Html.ValidationSummary(true)
+            <fieldset>
+                <legend>Contact</legend>
+                <div>
+                    <label asp-for="ImageUrl">Image URL</label>
+                    <input asp-for="ImageUrl" id="imageUrl" />
+                </div>
+                <div>
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" id="productName" />
+                </div>
+                <div>
+                    <label asp-for="CategoryName">Category</label>
+                    <input asp-for="CategoryName" id="categoryName" />
+                </div>
+                <div>
+                    <label asp-for="Description">Description</label>
+                    <input asp-for="Description" id="description" />
+                </div>
+                <div>
+                    <label asp-for="Price">Price</label>
+                    <input asp-for="Price" id="price" />
+                </div>
+                <div>
+                    <label asp-for="Count">Count</label>
+                    <input asp-for="Count" id="count" />
+                </div>
+                <p>
+                    <input type="submit" value="Save" id="productSave"/>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/adminproduct.js"></script>

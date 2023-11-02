@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{ECEE872F-F1DC-42D1-A969-BE4228E0F0B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AC8569A7-8247-4A76-970B-6ED543714DD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{2DD89600-E63C-464F-8D0B-FBA28C8F9D0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{211C336B-E505-45B8-B229-14D24DAEC42F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment", "Payment", "{76E46E78-D48B-4D17-95A7-EA3C5330CAE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inveon.Services.ProductAPI", "Inveon.Services.ProductAPI\Inveon.Services.ProductAPI.csproj", "{366A98C7-E9B3-4170-A204-2397CC2E0228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inveon.Web", "Inveon.Web\Inveon.Web.csproj", "{D5906741-B981-4B60-B1B0-F16679DFC07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inveon.GatewaySolution", "Inveon.GatewaySolution\Inveon.GatewaySolution.csproj", "{FDF98B4A-0346-4457-8E67-C8BBDA747EA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inveon.Services.Identity", "Inveon.Services.Identity\Inveon.Services.Identity.csproj", "{4F7DF89C-4C5D-466B-A2A2-D54529663011}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{366A98C7-E9B3-4170-A204-2397CC2E0228} = {AC8569A7-8247-4A76-970B-6ED543714DD9}
+		{D5906741-B981-4B60-B1B0-F16679DFC07A} = {ECEE872F-F1DC-42D1-A969-BE4228E0F0B7}
+		{FDF98B4A-0346-4457-8E67-C8BBDA747EA2} = {2DD89600-E63C-464F-8D0B-FBA28C8F9D0A}
+		{4F7DF89C-4C5D-466B-A2A2-D54529663011} = {AC8569A7-8247-4A76-970B-6ED543714DD9}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{366A98C7-E9B3-4170-A204-2397CC2E0228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{366A98C7-E9B3-4170-A204-2397CC2E0228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{366A98C7-E9B3-4170-A204-2397CC2E0228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{366A98C7-E9B3-4170-A204-2397CC2E0228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5906741-B981-4B60-B1B0-F16679DFC07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5906741-B981-4B60-B1B0-F16679DFC07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5906741-B981-4B60-B1B0-F16679DFC07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5906741-B981-4B60-B1B0-F16679DFC07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF98B4A-0346-4457-8E67-C8BBDA747EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF98B4A-0346-4457-8E67-C8BBDA747EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF98B4A-0346-4457-8E67-C8BBDA747EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF98B4A-0346-4457-8E67-C8BBDA747EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7DF89C-4C5D-466B-A2A2-D54529663011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7DF89C-4C5D-466B-A2A2-D54529663011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7DF89C-4C5D-466B-A2A2-D54529663011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7DF89C-4C5D-466B-A2A2-D54529663011}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
